@@ -438,7 +438,7 @@ using namespace std;
 int main()
 {
     double angka1, angka2;
-    double tambah, kurang, kali, bagi; // Keishin
+    double tambah, kurang, kali, bagi; // Dafa
 
     cout << "Masukkan angka pertama: ";
     cin >> angka1;
@@ -451,7 +451,7 @@ int main()
     bagi = angka1 / angka2;
 
     cout << "Hasil tambah: " << tambah << endl;
-    cout << "Hasil kurang: " << kurang << endl; // 103112400061
+    cout << "Hasil kurang: " << kurang << endl; // 103112400275
     cout << "Hasil kali: " << kali << endl;
     cout << "Hasil bagi: " << bagi << endl;
 
@@ -489,7 +489,7 @@ string konversiAngkaHuruf(int angka)
     {
         case 1: huruf = "satu"; break;
         case 2: huruf = "dua"; break;
-        case 3: huruf = "tiga"; break; // Keishin
+        case 3: huruf = "tiga"; break; // Dafa
         case 4: huruf = "empat"; break;
         case 5: huruf = "lima"; break;
         case 6: huruf = "enam"; break;
@@ -508,7 +508,7 @@ int main()
 {
     int input, satuan, puluhan;
     cout << "Masukkan angka: ";
-    cin >> input; // 103112400061
+    cin >> input; // 103112400275
 
     puluhan = input / 10;
     satuan = input % 10;
@@ -565,7 +565,7 @@ Buatlah program yang dapat memberikan _input_ dan _output_ sebagai berikut.
 #include <iostream>
 using namespace std;
 
-int main() // 103112400061
+int main() // 103112400275
 {
     int input;
     cout << "Input: ";
@@ -574,7 +574,7 @@ int main() // 103112400061
     for (int i = input + 1; i >= 1; i--) // Loop
     {
         for (int k = 0; k < input + 1 - i; k++) // Nested Loop 1
-        { // Keishin
+        { // Dafa
             cout << "  ";
         }
         for (int j = i-1; j >= 1; j--) // Nested Loop 2
